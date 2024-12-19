@@ -1,0 +1,34 @@
+:root {
+    --purple: #252D47;
+  }
+  
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--purple);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  main section {
+    height: 50%;
+    width: 50%;
+  }
+  
+  /* Media Rules */
+  @media screen and (max-width: 750px) {
+    body {
+      height: 200vh;
+    }
+    
+    main section {
+      height: 25%;
+      width: 100%;
+    }
+  }
+  
